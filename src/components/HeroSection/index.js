@@ -20,7 +20,7 @@ const HeroSection = () => {
            
             <HeroContent>
                 <HeroH1>Win Bitcoin by <br></br> Saving Bitcoin </HeroH1>
-                <HeroP>Save your Bitcoin with Swym and earn a chance to win the Bitcoin accrued from everyone’s savings </HeroP>
+                <HeroP>Save your Bitcoin with Swym and earn a chance to win Bitcoin accrued from everyone’s savings </HeroP>
                 <HeroBtnWrapper>
                      
                      <img className='swymapp' src={require('../../images/swym-apple.svg').default} style={{cursor:'pointer', maxWidth:'12em'}} alt='swym logo' onClick={goSwym} />
