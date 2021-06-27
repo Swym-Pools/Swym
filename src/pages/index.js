@@ -5,7 +5,7 @@ import InfoSection from '../components/InfoSection';
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/sidebar/index';
 import Services from '../components/Services';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 
 const Home = () => {

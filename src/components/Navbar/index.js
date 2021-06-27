@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
 import {IconContext} from 'react-icons/lib';
@@ -24,9 +24,9 @@ const Navbar = ({ toggle }) => {
         scroll.scrollToTop();
     }
 
-    const sendMeAMail = () => {
-        window.location.href = "mailto:swympools@gmail.com";
-    }
+    // const sendMeAMail = () => {
+    //     window.location.href = "mailto:swympools@gmail.com";
+    // }
 
     const goToSwym = () => {
         window.open('https://testflight.apple.com/join/hyUosx0v', '_blank')

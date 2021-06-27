@@ -13,7 +13,7 @@ const Services = () => {
             <ServicesWrapper>
 
                 <ServicesCard>
-                    <a  style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
+                    <a href='/' style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
                       <ServicesIcon src={Icon1}/>
                       <ServicesH2>SAVE</ServicesH2>
                       <ServicesP>Download the Swym App and start saving as little as one Satoshi</ServicesP>
@@ -21,7 +21,7 @@ const Services = () => {
                 </ServicesCard>
 
                 <ServicesCard>
-                    <a style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
+                    <a href='/'style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
                       <ServicesIcon src={Icon2}/>
                       <ServicesH2>WIN</ServicesH2>
                       <ServicesP>Keep your money save with Swym for a full week and have a chance to win up to 10 BTC</ServicesP>
@@ -29,7 +29,7 @@ const Services = () => {
                 </ServicesCard>
 
                 <ServicesCard>
-                    <a  style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
+                    <a href='/' style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
                       <ServicesIcon src={Icon3}/>
                       <ServicesH2>AGAIN</ServicesH2>
                       <ServicesP>Never lose when you always have your savings! Keep saving for a chance to win each week</ServicesP>

@@ -1,15 +1,15 @@
-import React, {useState} from 'react';
-import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
-import {Button} from '../ButtonElement';
+import React from 'react';
+import {HeroContainer, HeroContent, HeroH1, HeroP, HeroBtnWrapper} from './HeroElements';
+// import {Button} from '../ButtonElement';
 
 
 const HeroSection = () => {
 
-    const [hover, setHover] = useState(false);
+    // const [hover, setHover] = useState(false);
 
-    const onHover = () => {
-        setHover(!hover);
-    };
+    // const onHover = () => {
+    //     setHover(!hover);
+    // };
 
     const goSwym = () => {
         window.open('https://testflight.apple.com/join/hyUosx0v', '_blank')
