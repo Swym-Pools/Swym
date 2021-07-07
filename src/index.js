@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './pages/index';
-import Contact from './contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import FaqPage from './contact';
+import FaqPages from './pages/FaqPages';
+import TermPages from './pages/TermsPages';
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const App = () => {
       <Navbar/>
       <Switch>
         <Route path="/" component={Home} exact/>
-        <Route path="/faq" exact component={FaqPage}/>
-        <Route path="/terms" exact component={Contact}/>
+        <Route path="/faq" exact component={FaqPages}/>
+        <Route path="/terms" exact component={TermPages}/>
       </Switch>
       <Footer/>
     </Router>
