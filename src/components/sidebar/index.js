@@ -17,7 +17,7 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink
-                     to="about"
+                     to="/"
                      onClick={toggle}
                      smooth="true"
                      duration={500}
@@ -27,7 +27,7 @@ const Sidebar = ({isOpen, toggle}) => {
                         Home
                     </SidebarLink>
                     <SidebarLink
-                     to="projects" 
+                     to="faq" 
                      onClick={toggle}
                      smooth="true"
                      duration={500}
