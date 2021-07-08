@@ -5,7 +5,7 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
     font-family: 'Luckiest Guy', cursive;
-    /* background-Size: 35em; */
+    /* background-Size: 15em; */
     background-position: 90% 110%;
     background-Repeat: no-repeat;
     display:flex;
@@ -95,7 +95,7 @@ export const HeroContent = styled.div`
     }
 `
 export const HeroH1 = styled.div`
-    margin-top:150px;
+    margin-top:80px;
     margin-bottom: 50px;
     color: #FF975F;
     font-size: 5.5em;
@@ -120,18 +120,18 @@ export const HeroP = styled.p`
     font-family: 'Lato', sans-serif;
     margin-top: 44px;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
     max-width: 600px;
 
     @media screen and (max-width: 768px) {
-        font-size: 24px;
+        font-size: 20px;
         padding: 0px 20px;
            
     }
 
     @media screen and (max-width: 480px){
-        font-size: 18px;
+        font-size: 20px;
     }
 `
 
@@ -166,20 +166,21 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 
 export const FaqH1 = styled.div`
     /* margin-top:-100px; */
+    font-family: 'Lato-bold', sans-serif;
     color: black;
-    font-size: 2.5em;
+    font-size: 20px;
     text-align: left;
 
     @media screen and (max-width: 768px) {
         text-align: center;
         margin-top: 0;
-        font-size: 50px;
+        font-size: 20px;
     }
 
     @media screen and (max-width: 480px){
         text-align: center;
         margin-top: 0;
-        font-size: 50px;
+        font-size: 20px;
     }
 
 `
@@ -188,19 +189,19 @@ export const FaqP = styled.p`
     /* letter-spacing: 0.01em; */
     font-family: 'Lato', sans-serif;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
-    max-width: 900px;
+    max-width: 2000px;
 
     @media screen and (max-width: 768px) {
-        font-size: 24px;
+        font-size: 20px;
         padding: 0px 20px;
            
     }
 
     @media screen and (max-width: 480px){
-        font-size: 18px;
+        font-size: 20px;
     }
 `

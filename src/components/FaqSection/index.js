@@ -20,7 +20,7 @@ const FaqSection = () => {
            
             <HeroContent>
                 <HeroH1>Faq</HeroH1>
-                <FaqH1>WHAT IS SWYM?</FaqH1>
+                <FaqH1>What is Swym?</FaqH1>
                 <FaqP>Global Prized linked savings using Bitcoin. Save your Bitcoin with Swym and have a change to win a prize.</FaqP>
                 <FaqH1>Where does the prize come from?</FaqH1>
                 <FaqP>Swym deposits the Bitcoin with our trusted lending partner Blockfi. See here for more info: https://blockfi.com/crypto-interest-account .</FaqP>
