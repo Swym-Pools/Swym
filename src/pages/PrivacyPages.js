@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 // import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar'
+import PrivacySection from '../components/PrivacySection';
 import Sidebar from '../components/sidebar/index';
-import TermsSection from '../components/TermsSection';
 // import Footer from '../components/Footer';
 
 
-const TermsPages = () => {
+const PrivacyPages = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
@@ -18,11 +18,11 @@ const TermsPages = () => {
           <Sidebar isOpen={isOpen} toggle={toggle}/>
           <Navbar toggle={toggle}/>
           <div style={{padding:'0em'}}>
-            <TermsSection />
+            <PrivacySection />
             <p></p>
           </div>
         </>
     )
 }
 
-export default TermsPages;
+export default PrivacyPages;

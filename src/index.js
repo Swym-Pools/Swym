@@ -8,8 +8,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FaqPages from './pages/FaqPages';
 import TermPages from './pages/TermsPages';
+import PrivacyPages from './pages/PrivacyPages';
 
 const App = () => {
+  
   return (
     <Router>
       <Navbar/>
@@ -17,7 +19,9 @@ const App = () => {
         <Route path="/" component={Home} exact/>
         <Route path="/faq" exact component={FaqPages}/>
         <Route path="/terms" exact component={TermPages}/>
+        <Route path="/privacy" exact component={PrivacyPages}/>
       </Switch>
+      {/* <div ref={container}></div> */}
       <Footer/>
     </Router>
   )

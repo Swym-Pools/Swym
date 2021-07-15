@@ -5,17 +5,16 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
     font-family: 'Luckiest Guy', cursive;
-    background-Size: 35em;
+    /* background-Size: 15em; */
     background-position: 90% 110%;
     background-Repeat: no-repeat;
     display:flex;
     justify-content:left;
     align-items: center;
-    padding: 0 30px;
-    height: 800px;
+    padding: 5em 30px;
+    /* height: 800px; this was causing errors*/
     position: relative;
     z-index: 1;
-
     :before{
         content: '';
         position: absolute;
@@ -26,7 +25,6 @@ export const HeroContainer = styled.div`
         background: linear-gradient(180deg, rgba(0,0,0,0.2)0%), rgba(0,0,0,0.6);
         z-index:2;
     }
-
     @media screen and (max-width: 768px) {
         background: transparent;
         background-Size: cover;
@@ -81,13 +79,11 @@ export const HeroBg = styled.div`
 
 export const HeroContent = styled.div`
     z-index: 3;
-    max-width: 100%;
-    position: absolute;
+    max-width: 1200px;
     padding: 0px 50px;
     display: flex-start;
     flex-direction: column;
     align-items: left;
-
     @media screen and (max-width: 768px) {
         padding: 0px;
     }
@@ -96,23 +92,21 @@ export const HeroContent = styled.div`
     }
 `
 export const HeroH1 = styled.div`
-    margin-top:-100px;
+    margin-top:80px;
+    margin-bottom: 50px;
     color: #FF975F;
     font-size: 5.5em;
     text-align: left;
-
     @media screen and (max-width: 768px) {
         text-align: center;
         margin-top: 0;
         font-size: 50px;
     }
-
     @media screen and (max-width: 480px){
         text-align: center;
         margin-top: 0;
         font-size: 50px;
     }
-
 `
 
 export const HeroP = styled.p`
@@ -120,18 +114,16 @@ export const HeroP = styled.p`
     font-family: 'Lato', sans-serif;
     margin-top: 44px;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
-    max-width: 100%;
-
+    max-width: 600px;
     @media screen and (max-width: 768px) {
-        font-size: 24px;
+        font-size: 20px;
         padding: 0px 20px;
            
     }
-
     @media screen and (max-width: 480px){
-        font-size: 18px;
+        font-size: 20px;
     }
 `
 
@@ -150,7 +142,6 @@ export const HeroBtnWrapper = styled.div`
         align-items: center;
         flex-direction: column;
       
-
     }
 `
 
@@ -163,3 +154,40 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `
+
+export const FaqH1 = styled.div`
+    /* margin-top:-100px; */
+    font-family: 'Lato-bold', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    @media screen and (max-width: 768px) {
+        text-align: center;
+        margin-top: 0;
+        font-size: 20px;
+    }
+    @media screen and (max-width: 480px){
+        text-align: center;
+        margin-top: 0;
+        font-size: 20px;
+    }
+`
+
+export const FaqP = styled.p`
+    /* letter-spacing: 0.01em; */
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 2000px;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+        padding: 0px 20px;
+           
+    }
+    @media screen and (max-width: 480px){
+        font-size: 20px;
+    }
+` 

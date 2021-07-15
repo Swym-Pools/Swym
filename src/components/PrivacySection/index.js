@@ -1,10 +1,10 @@
 import React from 'react';
-import {HeroContainer, HeroContent, HeroH1, FaqH1, FaqP} from './FaqElements';
+import {HeroContainer, HeroContent, HeroH1, FaqH1, FaqP} from './PrivacyElements';
 import {Link} from 'react-router-dom';
 // import {Button} from '../ButtonElement';
 
 
-const FaqSection = () => {
+const PrivacySection = () => {
 
     // const [hover, setHover] = useState(false);
 
@@ -20,7 +20,7 @@ const FaqSection = () => {
         <HeroContainer>
            
             <HeroContent>
-                <HeroH1>Faq</HeroH1>
+                <HeroH1>Privacy Policy</HeroH1>
                 <FaqH1>What is Swym?</FaqH1>
                 <FaqP>Global Prized linked savings using Bitcoin. Save your Bitcoin with Swym and have a change to win a prize.</FaqP>
                 <FaqH1>Where does the prize come from?</FaqH1>
@@ -44,4 +44,4 @@ const FaqSection = () => {
     )
 }
 
-export default FaqSection
+export default PrivacySection
