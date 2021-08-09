@@ -22,7 +22,7 @@ const FaqSection = () => {
             <HeroContent>
                 <HeroH1>Faq</HeroH1>
                 <FaqH1>What is Swym?</FaqH1>
-                <FaqP>Swym is global, prized-linked savings using Bitcoin. Save your Bitcoin with Swym and have a chance to win a prize.</FaqP>
+                <FaqP>Swym is global, prized-linked savings using Bitcoin. Swym members pool their Bitcoin together for a chance at winning weekly prizes as a fun way to save money.</FaqP>
                 <FaqH1>Where does the prize come from?</FaqH1>
                 <FaqP>Swym deposits the Bitcoin with a combination of trusted lending partners including Blockfi, Celsius, and others in order to offer a reliable, and attractive prize for pool members. See here for more info: https://blockfi.com/crypto-interest-account .</FaqP>
                 <FaqH1>How does Swym make money?</FaqH1>
