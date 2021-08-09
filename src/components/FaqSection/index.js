@@ -32,7 +32,7 @@ const FaqSection = () => {
                 <FaqH1>What is the estimated prize?</FaqH1>
                 <FaqP>This week, the estimate prize is 39,137 satoshis, and adjusts with all inflows and outflows. Download the mobile app to get a live updates for the estimated weekly prize amount.</FaqP>
                 <FaqH1>Can I withdraw my Bitcoin at anytime?</FaqH1>
-                <FaqP>Yes, its your Bitcoin and you can send it wherever you want. At anytime you can send your Bitcoin will to your confirmed withdrawal address. Due to security processes required by our lending partners, the Swym withdrawal process typically finalizes within 24-48 hours. If you are trying to send on the mobile app and are having issues, please contact support@swympools.org</FaqP>
+                <FaqP>Yes, its your Bitcoin and you can send it wherever you want. At anytime you can send your Bitcoin to your confirmed withdrawal address. Due to security models utilized by our lending partners, the Swym withdrawal process typically finalizes within 24-48 hours. If you are trying to send on the mobile app and are having issues, please contact support@swympools.org</FaqP>
                 <FaqH1>How often are prizes released?</FaqH1>
                 <FaqP>Currently we are doing prizes every week. The winner will be selected at 9 pm EST every Friday.</FaqP>
                 <FaqH1>What are the rules of eligibility?</FaqH1>
