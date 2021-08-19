@@ -24,9 +24,9 @@ const FaqSection = () => {
                 <FaqH1>What is Swym?</FaqH1>
                 <FaqP>Swym is global, prized-linked savings using Bitcoin. Swym members pool their Bitcoin together for a chance at winning weekly prizes as a fun way to save money.</FaqP>
                 <FaqH1>Where does the prize come from?</FaqH1>
-                <FaqP>Swym deposits the Bitcoin with a combination of trusted lending partners including Blockfi, Celsius, and others in order to offer a reliable, and attractive prize for pool members. See here for more info: https://blockfi.com/crypto-interest-account .</FaqP>
+                <FaqP>Swym deposits the Bitcoin with a combination of trusted lending partners including Blockfi, Celsius, and others in order to offer a reliable, and attractive prize for pool members.</FaqP>
                 <FaqH1>How does Swym make money?</FaqH1>
-                <FaqP>Swym earns a small percentage of the interest acrrued to keep our community of Swymm members growing and offer new and other ways to win, save and learn about Bitcoin.</FaqP>
+                <FaqP>Swym earns a small percentage of the interest acrrued to keep our community of Swym members growing and offer new and other ways to win, save and learn about Bitcoin.</FaqP>
                 <FaqH1>How is the Swym Champion selected?</FaqH1>
                 <FaqP>The Swym Champion is selected randomly. Each satoshi a pool member saves gives them one chance to win. For example, if you save 1 satoshi and the total savings in the pool are 100 satoshi, you have a 1% chance of winning.</FaqP>
                 <FaqH1>What is the estimated prize?</FaqH1>
