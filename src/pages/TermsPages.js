@@ -18,7 +18,7 @@ const TermsPages = () => {
           <Sidebar isOpen={isOpen} toggle={toggle}/>
           <Navbar toggle={toggle}/>
           <div style={{padding:'0em'}}>
-            <TermsSection />
+            <TermsSection/>
             <p></p>
           </div>
         </>

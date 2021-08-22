@@ -176,7 +176,7 @@ export const FaqH1 = styled.div`
 export const FaqP = styled.p`
     /* letter-spacing: 0.01em; */
     font-family: 'Lato', sans-serif;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 50px;
     color: black;
     font-size: 20px;
