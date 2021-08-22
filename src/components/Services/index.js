@@ -1,6 +1,6 @@
 import React,{useEffect, useRef} from 'react'
 import Icon1 from '../../images/svg-1.svg';
-// import Icon2 from '../../images/svg-7.svg';
+import Icon2 from '../../images/svg-7.svg';
 import Icon3 from '../../images/svg-3.svg';
 import {ServicesContainer, ServicesH1,ServicesWrapper, 
 ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements';
@@ -36,12 +36,20 @@ const Services = () => {
                 </ServicesCard>
 
                 <ServicesCard>
+                    <a href='/' style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
+                      <ServicesIcon src={Icon2}/>
+                      <ServicesH2>WIN</ServicesH2>
+                      <ServicesP>Keep your money saved with Swym for a full week and have a chance to win up to 10 BTC</ServicesP>
+                    </a>
+                </ServicesCard>                
+
+                {/* <ServicesCard>
                     <a href='/'style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}} target='_blank' > 
                       <div ref={container} style={{height:'200px', width:'200px', marginLeft:'1em'}}></div>
                       <ServicesH2>WIN</ServicesH2>
-                      <ServicesP>Keep your money save with Swym for a full week and have a chance to win up to 10 BTC</ServicesP>
+                      <ServicesP>Keep your money saved with Swym for a full week and have a chance to win up to 10 BTC</ServicesP>
                     </a>
-                </ServicesCard>
+                </ServicesCard> */}
 
                 <ServicesCard>
                     <a href='/' style={{color: 'inherit', textDecoration: 'none', textAlign: 'center'}}> 
