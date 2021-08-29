@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import FaqPages from './pages/FaqPages';
 import TermPages from './pages/TermsPages';
 import PrivacyPages from './pages/PrivacyPages';
+import WithdrawPages from './pages/WithdrawPages';
+
 
 const App = () => {
   
@@ -20,6 +22,7 @@ const App = () => {
         <Route path="/faq" exact component={FaqPages}/>
         <Route path="/terms" exact component={TermPages}/>
         <Route path="/privacy" exact component={PrivacyPages}/>
+        <Route path="/withdraw" exact component={WithdrawPages}/>
       </Switch>
       {/* <div ref={container}></div> */}
       <Footer/>

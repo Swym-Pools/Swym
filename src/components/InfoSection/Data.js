@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: '',
     headline: 'JOIN THE POOL PARTY',
-    description: 'Users are currently saving a total of ~7 Bitcoin this month. Dip your feet in the pool and start saving as little as one satoshi',
+    description: 'Users are currently saving a total of ~1 Bitcoin this month. Dip your feet in the pool and start saving as little as one satoshi',
     buttonLabel: 'Join',
     imgStart: true,
     img: require('../../images/swympoolparty.svg').default,
